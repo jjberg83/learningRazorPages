@@ -25,6 +25,7 @@ namespace RazorPagesMovie.Pages.Movies
         {
             if (id == null || _context.Movie == null)
             {
+                Console.WriteLine("404 feil her?");
                 return NotFound();
             }
 
